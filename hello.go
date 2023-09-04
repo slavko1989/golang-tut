@@ -10,7 +10,7 @@ import (
 var pl = fmt.Println
 
 func main() {
-	pl("What is your name")
+	pl("Hello world")
 	reader := bufio.NewReader(os.Stdin)
 	name, err := reader.ReadString('\n')
 
